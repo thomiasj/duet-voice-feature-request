@@ -16,6 +16,10 @@ On a live call, Duet only speaks right after I talk. A note, chat post or task r
 
 Tested Nov 8, 2026: three routes. All arrived; none were shown to me or spoken.
 
+## Finding: the call can already speak on a timer
+Later on Nov 8, I asked the voice assistant to check back in 60 seconds. It set a timer, and when the timer fired it spoke on its own without me saying anything ("That's the 60 seconds up... Shall I check whether the link has come back?"). But it couldn't read the new messages itself, so it had to ask me first.
+So the piece that makes the call speak up already exists. The missing step is small: when a timer fires (or new info arrives), let the voice assistant read what's new in the chat and tell me, instead of asking permission to look.
+
 ## Ask
 Give other Claude sessions a visible way to message the Duet chat, and let new info during a call prompt the voice assistant to speak, so an agent can report in hands-free.
 
